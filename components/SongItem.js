@@ -40,11 +40,10 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     width: "100%",
   },
-  index: { width: "10%", color: "white" },
+  index: { width: "10%", color: "white", textAlign: "center" },
   image: {
     width: "20%",
     height: 80,
-    margin: 5,
     resizeMode: "contain",
   },
   songTitle: { color: "white" },
@@ -53,7 +52,11 @@ const styles = StyleSheet.create({
     width: "35%",
     padding: 5,
   },
-  songAlbum: { width: "25%", color: "white", padding: 5 },
+  songAlbum: {
+    width: "25%",
+    color: "white",
+    padding: 5,
+  },
   duration: { width: "10%", color: "white" },
 });
 

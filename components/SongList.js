@@ -10,10 +10,9 @@ import { colors } from "../assets/Themes/colors";
 import { Themes } from "../assets/Themes";
 import SongItem from "./SongItem";
 import SpotifyLogo from "../assets/Images/images";
+let index = 0;
 
 const SongList = ({ tracks }) => {
-  let index = 0;
-
   const renderSongItem = (item) => {
     console.log(item);
     index += 1;
